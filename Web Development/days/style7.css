@@ -1,0 +1,17 @@
+#box{
+    width: 1000px;
+    height: 50px;
+    background-color: lightgray;
+    padding: 3px;
+    margin: 3px;
+    box-shadow: 10px 10px 10px black;
+    border-width: 2px;
+    border-style: hidden;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+body{
+    background:url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg?t=st=1743661748~exp=1743665348~hmac=de7034393adae63e38cbbdd5297165811bca6194028c5725c2165240453e1694&w=1380);
+    background-size: cover;
+}
