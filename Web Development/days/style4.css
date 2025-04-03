@@ -1,0 +1,16 @@
+/*1.Universal Selector: */
+*{
+    color: aqua;
+}
+/*2.Element Selector: */
+h1{
+    color: purple;
+}
+/*3.Class Selector: */
+.heading-color{
+    color:chartreuse
+}
+/*4.Id Selector: */
+#color-tag{
+    color: pink;
+}
