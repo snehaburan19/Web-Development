@@ -1,0 +1,234 @@
+h1{
+    text-align: center;
+    color: palevioletred;
+}
+
+body{
+    background:url(https://img.freepik.com/free-photo/blurred-corridor-with-chairs-tables_1203-166.jpg);
+    background-size: cover;
+}
+
+#Food1{
+    margin-left: 7%; /*Add spce between side border and teh list */
+    float: below; /*Float the list beside the side div */
+    margin-top: 3%; /*Aligns with border top */
+}
+
+#Food1 ul{
+    /*list-style-type:none; Remove default list bullets */
+    padding: 0;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#Food1 li{
+    margin-bottom: 20px;  /*Add some space between list item*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+    text-decoration-line:none ;
+}
+#Food2{
+    margin-left: 7%; /*Add spce between side border and teh list */
+    float: below; /*Float the list beside the side div */
+    margin-top: 3%; /*Aligns with border top */
+}
+
+#Food2 ul{
+    /*list-style-type:none; Remove default list bullets */
+    padding: 0;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#Food2 li{
+    margin-bottom: 20px;  /*Add some space between list item*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+    text-decoration-line:none ;
+}
+#Food3{
+    margin-left: 7%; /*Add spce between side border and teh list */
+    float: below; /*Float the list beside the side div */
+    margin-top: 3%; /*Aligns with border top */
+}
+
+#Food3 ul{
+    /*list-style-type:none; Remove default list bullets */
+    padding: 0;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#Food3 li{
+    margin-bottom: 20px;  /*Add some space between list item*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+    text-decoration-line:none ;
+}
+
+#Food4{
+    margin-left: 7%; /*Add spce between side border and teh list */
+    float: below; /*Float the list beside the side div */
+    margin-top: 3%; /*Aligns with border top */
+}
+
+#Food4 ul{
+    /*list-style-type:none; Remove default list bullets */
+    padding: 0;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#Food4 li{
+    margin-bottom: 20px;  /*Add some space between list item*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+    text-decoration-line:none ;
+}
+
+#Food5{
+    margin-left: 7%; /*Add spce between side border and teh list */
+    float: below; /*Float the list beside the side div */
+    margin-top: 3%; /*Aligns with border top */
+}
+
+#Food5 ul{
+    /*list-style-type:none; Remove default list bullets */
+    padding: 0;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#Food5 li{
+    margin-bottom: 20px;  /*Add some space between list item*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+    text-decoration-line:none ;
+}
+
+#Grid{
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid1{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid2{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid3{
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid4{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid5{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50;
+    left: 62%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+#Grid6{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50;
+    left: 62%;
+    border-color: lightcoral;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 10px;
+    overflow: hidden;
+}
+
+body{
+    margin: 0; /* Remove default margin*/
+}
+
+/* Clear the floats to prevent layout issues*/
+body::after{
+    content: "";
+    display: table;
+    clear:both;
+}
