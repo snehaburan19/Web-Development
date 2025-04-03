@@ -1,0 +1,34 @@
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+.child{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 3px;
+}
+.child img{
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+body{
+    background-color: black;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
