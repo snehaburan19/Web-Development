@@ -1,0 +1,109 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.box{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+}
+
+.box:hover{
+    transform:scale(1.5);
+    transition: all linear 0.3s;
+}
+
+.box1{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+    transform: rotate(180deg);
+    margin-top: 210px;
+    margin-left: 215px;
+}
+
+.box1:hover{
+    transform:scale(0.7);
+    transition: cubic-bezier(0.77,0,0.175,1)0.5s;
+}
+
+.box2{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 428px;
+}
+.box2:hover{
+    background-color: azure;
+    transform:scale(0.5);
+    transition: all linear;
+}
+
+.box3{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 210px;
+}
+.box3:hover{
+    transform:skew(10deg,30deg);
+}
+
+.box4{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 870px;
+}
+
+.box4:hover{
+    transform: translate(0px,-200px);
+    transition: all linear 0.3s;
+}
+
+.box5{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 1085px;
+}
+
+.box5:hover{
+    transform: scale(1.3);
+    transform: rotate(60deg);
+    transition: steps(30) 2s;
+}
+
+.box6{
+    height: 210px;
+    width: 210px;
+    background-color: azure;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 1300px;
+}
+
+.box6:hover{
+    transform: translate(200px,0px);
+    transition: linear 1s;   
+}
