@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Sign Up Page</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 350px;
+      background-color: rgb(248, 112, 58);
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 10px 10px 20px white;
+    }
+
+    h2 {
+      color: brown;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid black;
+      background-color: rgb(199, 191, 191);
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid black;
+      background-color: pink;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: rgb(90, 90, 245);
+      color: white;
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      input, button {
+        font-size: 0.95rem;
+        padding: 8px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Sign Up</h2>
+    <form>
+      <input type="text" placeholder="First Name" required />
+      <input type="text" placeholder="Last Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
