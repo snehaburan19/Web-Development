@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: darkmagenta;
+    /*display: flex;
+    align-items: center;
+    justify-content: centre; */
+}
+
+h1{
+    background-color: pink;
+    color: darkmagenta;
+    padding: 20px;
+    text-align: center;
+}
+
+.box{
+    margin-top: 6%;
+    margin-left: 38%;
+    height: 450px;
+    width: 450px;
+    background-color: whitesmoke;
+    border: 5px solid gray;
+    border-radius: 8px;
+    animation: virat 10s linear 3s infinite normal both;
+}
+
+@keyframes virat {
+    0%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpXydkEn76dtM8pD7zEcTdR7H6QUKwpDXxYw&s");
+        background-size: cover;
+        background-position: center;
+        background-color: aliceblue;
+    }
+    
+    20%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnYvV-6i7ZI3NZBAj736x1SrAONoZeZT8GA&s");
+        background-size: cover;
+        background-position: center;
+    }
+
+    40%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVERawo94CjuVLdqrdwPrxPvW_lJYnXKoSqw&s");
+        background-position: center;
+        background-size: cover;
+    }
+
+    60%{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR88ffZdsYV001xi-wuTCoqdZThVddEwragwQ&s");
+        background-position: center;
+        background-size: cover;
+    }
+
+    80%{
+        background-image: url("https://static.toiimg.com/thumb/imgsize-23456,msid-118989667,width-600,resizemode-4/118989667.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url("https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9911/1741620129911-i");
+        background-position: center;
+        background-size: cover;
+    }
+}
