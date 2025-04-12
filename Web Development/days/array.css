@@ -1,0 +1,42 @@
+/* Arrays
+Example 1: Combination of strings, functions, arrays, numbers (primitive & reference/non-primitive types) */
+var a = ["Sneha", "12345", function () { console.log("I am a function"); }, [], 5.8];
+a.forEach((val) => { console.log(val); });
+
+/* Example 2: Sorting numbers in descending order */
+var nums = [100, 25, 45, 88];
+for (var i = 0; i < nums.length; i++) {
+    for (var j = i + 1; j < nums.length; j++) {
+        if (nums[i] < nums[j]) {
+            var temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
+    }
+}
+nums.forEach((val) => { console.log(val); });
+
+/* Objects
+Example 1: Using object literal */
+var obj = {
+    name: "xyz",
+    branch: "cse",
+    address: "Bangalore",
+    marks: "78%",
+};
+console.log(obj.name);
+console.log(obj.branch);
+console.log(obj.address);
+console.log(obj.marks);
+
+/* OR: Looping through object keys */
+Object.keys(obj).forEach((key) => {
+    console.log(key + ":", obj[key]);
+});
+
+/* Example 2: Using new Object() constructor */
+var b = new Object();
+b.message1 = "Hello";
+b.message2 = "Welcome to India";
+console.log(b.message1);
+console.log(b.message2);
